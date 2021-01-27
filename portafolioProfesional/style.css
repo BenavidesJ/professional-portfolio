@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#division-titlePrimary{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 300px;
+    line-height: 1;
+    color: rgb(255,255,255,0.5);
+}
+#division-titleSecondary{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 50px;
+    color: rgb(255,255,255,0.5);
+}
+
+#ham-menu{
+    position: absolute;
+    display: flex;
+    right: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 35px;
+    padding: 10px;
+    color: rgb(255,255,255,0.3);
+}
+
+#ham-menu:hover{
+    color: rgb(255,255,255);
+    cursor: pointer;
+}
+#division{
+    display: flex;
+    height: 50vh;
+    background-color: #141414;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxOne{
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(90deg,rgb(0,0,70,0.8),rgb(0,0,0,0.8)),url(spaceWallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+#flag{
+    display: inline-flex;
+    position: relative;
+    width: 100px;
+    top:80px;
+    right: 500px;
+}
+#hero-text{
+    display: inline-flex;
+    margin-top: 250px;
+    color: rgb(255,255,255);
+}
+#arriba{
+    position: absolute;
+    height: 10%;
+    background-color:rgb(255,255,255,0.05);
+}
+/*------------------------About Section---------------------------------*/
+#boxThree{
+    display: flex;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+}
+#pic{
+    width: 200px;
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    border-radius: 100px;
+}
+
+#introduction-text{
+    position: absolute;
+    width: 700px;
+    top: 300px;
+}
+#skills-chart{
+    position: absolute;
+    margin: 20px;
+    top: 25px;
+    left: 150px;
+}
+label {
+    padding: 2px;
+    font-size: 1rem;
+}
+
+#cv-link{
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    padding: 3px;
+    border: solid 1px;
+}
+/*------------------------Curriculum Section---------------------------------*/
+#boxFive{
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(15, 0, 70),rgb(0, 22, 122));
+    position: relative;
+}
+#boxFiveOne{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,100,0.5),rgb(0,0,0,0.5)),url(codingWallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#section-title{
+    text-align: center;
+    top: 40%;
+    position: absolute;
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(255,255,255,0.8);
+}
+
+#section-title:hover{
+    text-align: center;
+    top: 40%;
+    position: absolute;
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: 51px;
+    transition: 0.1s;
+}
+#boxFiveTwo{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,100,0.5),rgb(0,0,0,0.5)),url(semiconductorWallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*--------------------------------Contact Form Section---------------------------------------------*/
+#boxSeven{
+    display: flex;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+#boxSeven h3{
+    position: absolute;
+    top: 100px;
+    font-size: 60px;
+}
+/*---------------------Footer Section------------------------------*/
+#footer{
+    display: flex;
+    height: 50vh;
+    background-color: #141414;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+#footer h3{
+    position: absolute;
+    top:65%;
+}
+
+#footer-titlePrimary{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 35px;
+    line-height: 1;
+    color: rgb(255,255,255,0.5);
+}
+#footer-titleSecondary{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+    color: rgb(255,255,255,0.5);
+}
+
+#footer ul{
+    position: absolute;
+    display: inline-flex;
+    text-align: center;
+    list-style: none;
+    font-size: 55px;
+    top: 25%;
+    left: 35%;
+}
+
+#footer ul a{
+    padding: 5px;
+    color: rgb(255,255,255,0.5);
+    filter: none;
+    justify-content: space-around;
+}
+
+#footer ul a:hover{
+    color: rgb(255,255,255);
+    flex-direction: row;
+}

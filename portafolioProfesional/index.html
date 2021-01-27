@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Custom CSS & Bootstrap CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/22632f48e5.js" crossorigin="anonymous"></script>
+
+    <title>Professional Portfolio - Jose D. Benavides</title>
+</head>
+<body>
+    <!--------------------------------------------Hero Section--------------------------------------------------------------->
+    <div class="container-fluid" id="boxOne">
+        <div class="container-fluid" id="arriba">
+            <div id=ham-menu><i class="fas fa-bars"></i></div>
+        </div>
+        <h1 id="hero-text">Front-End Developer <br> Industrial Electronics Technician in San José,Costa Rica</h1>
+        <br>
+        <img src="/costaRicaFlag.svg" alt="Costa Rica's Flag" id="flag">
+    </div>
+    <!--------------------------------------------Hero Section--------------------------------------------------------------->
+    <div class="container-fluid" id="division">
+        <span id="division-titlePrimary">.01</span><span id="division-titleSecondary">About</span>
+    </div>
+    <!--------------------------------------------about Section--------------------------------------------------------------->
+    <div class="container-fluid" id="boxThree">
+        <div class="col-6">
+            <div id="avatar">
+                <img src="/Personal.jpg" alt="José Benavides" id="pic">
+            </div>
+            <div id="introduction-text">
+                <p>As of Jan 2021, I've been a manufacturing technician in Costa Rica for ten years, 
+                    and I'm now working to become a Software Engineer to explore my technological interests.
+                    <h4>What am I working on?:</h4>
+                    <ol>
+                        <li>👷‍♂️ I'm a manufacturing tech. I studied Industrial Electronics for 3 years at San Sebastian Technical High School, and graduated in 2010.</li>
+                        <li>🎮 I learned to code 3 years ago, because one of my goals is to develop videogames.</li>
+                        <li>🎸 I enjoy playing the bass and guitar.</li>
+                        <li>⌨️I am studying hard to become a Software Engineer, and also a Web Developer</li>
+                        <li>I like traveling and one of my dreams is to visit Japan</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+        <div class="col-6" id="skills-section">
+            <div id="skills-chart">
+                <h4>Skills Chart</h4>
+                <ul>
+                    <ul>Languages
+                        <li>
+                            <label for="spanish">Spanish</label>
+                            <progress id="spanish" max="100" min="0" value="100">Spanish</progress>
+                        </li>
+                        <li>
+                            <label for="english">English</label>
+                            <progress id="english" max="100" min="0" value="85">English</progress>
+                        </li>
+                        <li>
+                            <label for="japanese">Japanese</label>
+                            <progress id="japanese" max="100" min="0" value="25">Japanese</progress>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul>Front-End Develop Skills
+                        <li>
+                            <label for="html">HTML</label>
+                            <progress id="html" max="100" min="0" value="90">HTML</progress>
+                        </li>
+                        <li>
+                            <label for="cascade">CSS</label>
+                            <progress id="cascade" max="100" min="0" value="90">CSS</progress>
+                        </li>
+                        <li>
+                            <label for="boot">Bootstrap</label>
+                            <progress id="boot" max="100" min="0" value="85">Bootstrap</progress>
+                        </li>
+                        <li>
+                            <label for="js">Javascript</label>
+                            <progress id="js" max="100" min="0" value="85">Javascript</progress>
+                        </li>
+                        <li>
+                            <label for="react">React</label>
+                            <progress id="react" max="100" min="0" value="5">React</progress>
+                        </li>
+                        <li>
+                            <label for="react">React Native</label>
+                            <progress id="react" max="100" min="0" value="5">React</progress>
+                        </li>
+                    </ul>
+
+                </ul>       
+            </div>
+            <a href="#boxFive" id="cv-link">To learn more, this link will take you to CV</a>
+        </div>
+    </div>
+    <!--------------------------------------------about Section--------------------------------------------------------------->
+    <div class="container-fluid" id="division">
+        <span id="division-titlePrimary">.02</span><span id="division-titleSecondary">Curriculum</span>
+    </div>
+    <!--------------------------------------------CV Section--------------------------------------------------------------->
+    <div class="container-fluid" id="boxFive">
+
+        <div class="col-6" id="boxFiveOne"><a href="#" id="section-title">Software / Front-End Web Developer CV</a></div>
+        <div class="col-6" id="boxFiveTwo"><a href="#" id="section-title">Electrical / Industrial Electronics CV</a></div>
+
+    </div>
+    <!--------------------------------------------CV Section--------------------------------------------------------------->
+    <div class="container-fluid" id="division">
+        <span id="division-titlePrimary">.03</span><span id="division-titleSecondary">Contact</span>
+    </div>
+    <!--------------------------------------------Contact Section--------------------------------------------------------------->
+    <div class="container-fluid" id="boxSeven">
+        <h3>Contact me...</h3>
+        <form class="form-inline">
+            <label class="sr-only" for="inlineFormInputName2">Name</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Full name">
+            <label class="sr-only" for="inlineFormInputName2">Company</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Company">
+            <label class="sr-only" for="inlineFormInputGroupUsername2">Email</label>
+            <div class="input-group mb-2 mr-sm-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text"><i class="fas fa-user"></i></div>
+              </div>
+              <input type="email" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Email">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </div>
+        </form>
+    </div>
+    <!--------------------------------------------Contact Section--------------------------------------------------------------->
+    <div class="container-fluid" id="footer">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/benavidesj/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/BenavidesJ" target="_blank"><i class="fab fa-github-square"></i></a></li>
+            <li><a href="https://stackoverflow.com/users/14404045/benavidj?tab=profile" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
+            <li><a href="https://www.facebook.com/jsbnvds/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instagram.com/jsebnvds/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+        </ul>
+        <h3 id="footer-titlePrimary">"...per aspera ad astra..." <i id="footer-titleSecondary">Séneca</i></h3>
+    </div>
+</body>
+</html>
